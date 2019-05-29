@@ -8,14 +8,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#f00"
-        >
+        android:background="#f00">
 
         <TextView
             android:id="@+id/tvSaludo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_bike"
+            android:drawableTop="@drawable/ic_bike"
             android:text="Hello World!" />
 
         <Button
@@ -24,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tvSaludo"
             android:layout_alignRight="@id/tvSaludo"
+            android:drawableBottom="@drawable/ic_bike"
             android:text="Button" />
 
 
@@ -88,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/flMain"
-            android:background="#fff"
+            android:background="@drawable/background_gradiente"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
@@ -120,7 +122,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/ic_bike"
+                android:tint="#000" />
 
 
             <Switch
@@ -150,7 +153,7 @@
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/android" />
 
 
         </LinearLayout>
