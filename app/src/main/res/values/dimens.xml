@@ -3,6 +3,7 @@
 
     <dimen name="img_ancho">200dp</dimen>
     <dimen name="img_alto">200dp</dimen>
+    <dimen name="btn_margin">16dp</dimen>
 
 
 </resources>

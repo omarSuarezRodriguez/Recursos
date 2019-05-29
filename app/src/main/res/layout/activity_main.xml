@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/button"
             android:background="@color/verde_claro"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
 
             <TextView
@@ -44,23 +44,16 @@
                 android:text="Hello World!" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button"
-                android:background="@color/background_button"/>
+                android:text="Button1"
+                style="@style/myButton"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button"
-                android:background="@color/background_button"/>
+                android:text="Button2"
+                style="@style/myButton" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button"
-                android:background="@color/background_button"/>
-
+                android:text="Button3"
+                style="@style/myButton"/>
 
         </LinearLayout>
 
@@ -132,13 +125,13 @@
             <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Estado: " />
+                android:text="@string/estado" />
 
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Acepta Terminos y Condiciones" />
+                android:text="@string/terminos_y_condiciones" />
 
 
             <ProgressBar
